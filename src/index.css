@@ -1,0 +1,30 @@
+/* Tailwind Base Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light background color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional Global Style for Body or Specific Elements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Optional Global Style for Links */
+a {
+  color: inherit; /* Make links inherit color from their parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Additional Custom Styles (if needed) */
